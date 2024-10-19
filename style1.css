@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+
+.card
+{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.card img{
+    width:100%;
+    height: 32%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.content
+{
+    width:70%;
+    height: 10%;
+}
+
+.content p
+{
+    text-align: center;
+}
+
+.plan
+{
+    width: 80%;
+    height: 10%;
+    background-color: #a9c2d0a5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    gap: 20px;
+}
+
+.rate
+{
+    position: relative;
+    left:12px;
+    font-size: 15px;
+    font-weight: 150;
+}
+
+.mlogo
+{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left:10px;
+}
+
+.plan img
+{
+    width:40px;
+    height:40px;
+}
+
+.plan a
+{
+    position: relative;
+    left: 85px;
+}
+
+.card button
+{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(2, 2, 89);
+    position: relative;
+    top:20px;
+    color:azure;
+    border-radius:20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cancel
+{
+    position: relative;
+    top:25px;
+}
+
+.card button:hover {
+    background-color: rgb(2, 2, 110);
+    cursor: pointer;
+}
